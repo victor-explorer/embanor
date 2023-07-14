@@ -1,1 +1,70 @@
 @use 'variables';
+
+.banner-heading {
+  @include font-title($h-lg);
+  color: $blue-500;
+  text-transform: uppercase;
+
+  span {
+    color: $black;
+  }
+
+  &--center {
+    @extend .banner-heading;
+    text-align: center;
+  }
+
+  @media (max-width: 576px) {
+    @include font-title($h-md);
+  }
+}
+
+.home-banner-heading {
+  @extend .banner-heading;
+  @include font-title($h-xl);
+
+  &--center {
+    @extend .home-banner-heading ;
+    text-align: center;
+  }  
+
+  @media (max-width: 576px) {
+    @include font-title($h-md);
+  }
+}
+
+.section-heading {
+  @include font(600, $h-default);
+  letter-spacing: -1px;
+  color: $blue-500;
+
+  span {
+    color: $black;
+  }
+
+  &--center {
+    @extend .section-heading;
+    text-align: center;
+  }
+
+  &--after {
+    @extend .section-heading;
+
+    @include font(400, $lg);
+    letter-spacing: normal;
+  }
+
+  &--dark {
+    @extend .section-heading;
+
+    span {
+      color: $white;
+    }
+  }
+}
+
+.heading {
+  @include font(600, $lg);
+  letter-spacing: -0.6px;
+}
+

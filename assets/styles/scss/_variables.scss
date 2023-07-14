@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@font-face {
+  font-family: 'Gotham Black';
+  src: url(../../fonts/gotham-black.ttf) format('truetype');
+}
+
+//Colors
+$white: #FFFFFF;
+$black: #000000;
+$blue-500: #05ADF1;
+$blue-300: #68B2F4;
+$gray: #E4E4E4;
+
+//font-sizes
+$default: 1rem;
+$md: 1.125rem;
+$lg: 1.25rem;
+$xl: 1.5rem;
+$h-default: 2rem;
+$h-md: 2.25rem;
+$h-lg: 3rem;
+$h-xl: 3.75rem;
+
+// sizes
+$size-xsm: 0.5rem;
+$size-sm: 0.75rem;
+$size-md: 1rem;
+$size-lg: 2rem;
+$size-xl: 3rem;
+$size-xxl: 3.75rem;
+
+
+@mixin font($weight: 400, $size: $default) {
+  font: normal $weight $size 'Poppins', sans-serif;
+}
+
+@mixin font-title($size: $h-default) {
+  font: normal 500 $size 'Gotham Black';
+}
