@@ -1,7 +1,7 @@
 <!-- Header -->
 <?php require('parts/header.php'); ?>
 
-<main id="contact">
+<main id="page-contact">
   <!-- Section - Banner -->
   <section class="page-banner">
     <div class="container">
@@ -23,14 +23,14 @@
   <section>
     <div class="container-fluid">
       <div class="row align-items-center">
-        <div class="col-lg">
-          <div class="offset-lg-2">
-            <h3>Nosso endereço</h3>
-            <p>Estrada Jurumirim, 506 Bairro Canjica - Salto-SP</p>
+      <div class="col-lg">
+          <div class="offset-lg-2 text-center text-lg-start py-5 py-lg-0">
+            <h3 class="section-heading text-uppercase"><span>Nosso endereço</span></h3>
+            <p>Estrada Jurumirim, 506 <br> Bairro Canjica - Salto-SP</p>
           </div>
         </div>
   
-        <div class="col-lg maps p-0">
+        <div class="col-lg maps">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14665.92822765914!2d-47.2972175!3d-23.225539!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf51d963310dbb%3A0xe7a5be68899d8a7f!2sEmbanor%20Embalagens!5e0!3m2!1spt-BR!2sbr!4v1689279575362!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
@@ -42,7 +42,7 @@
   <section class="wrapper contact">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg">
+        <div class="col-lg text-center text-lg-start mb-3">
           <h4>Contato</h4>
           <p>Envie sua mensagem para o time Embanor e em breve entraremos em contato:</p>
         </div>

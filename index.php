@@ -1,7 +1,7 @@
 <!-- Header -->
 <?php require('parts/header.php'); ?>
 
-<main id="home">
+<main id="page-home">
   <!-- Section - Banner Home -->
   <section id="banner">
     <div class="container">
@@ -38,9 +38,11 @@
             Contamos com uma estrutura de mais de 6.500 m² em terreno de 30.000 m², em uma região logisticamente privilegiada pelo acesso fácil a diversas rodovias.
             Com equipe especializada, projetos personalizados e certificados de qualidade em cada processo, buscamos sempre garantir a integridade dos produtos de nossos clientes e o melhor custo-benefício.
           </p>
-          <a href="http://" role="button" class="embanor-button">
-            Fale conosco
-          </a>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="http://" role="button" class="embanor-button">
+              Fale conosco
+            </a>
+          </div>
 
         </div>
       </div>
@@ -76,7 +78,7 @@
 
   <!-- Section - Produtos -->
   <section id="products" class="waves">
-    <div class="">
+    <div class="mb-5 mb-lg-0 px-lg-0 px-3">
       <h3 class="section-heading--center">Conheça nossos produtos</h3>
       <p class="text-center text-white">O melhor em embalagens de papelão ondulado para manter intacta
         a qualidade de seu produto, do transporte à entrega.</p>
@@ -84,7 +86,7 @@
 
     <!-- Carrossel no mobile e lista de cards no desktop  -->
     <div class="container-fluid">
-      <div class="cards-product row g-3">
+      <div class="carousel-products cards-product row g-3">
 
         <div class="col">
           <div class="card-product">
@@ -187,8 +189,8 @@
           <img src="assets/images/section4-home.webp" alt="Imagem" class="responsive-image">
         </div>
 
-        <div class="col-lg">
-          <h3 class="section-heading">
+        <div class="col-lg mt-3 mt-lg-0 text-center text-lg-start">
+          <h3 class="section-heading ">
             Do seu jeito, <span>para
               transportar o que quiser</span>
           </h3>
@@ -223,7 +225,7 @@
   <section class="wrapper bg-gray">
     <div class="container">
       <div class="row">
-        <div class="col-lg">
+        <div class="col-lg text-center text-lg-start">
           <h3 class="section-heading">
             <span>O respeito ao meio ambiente</span>
             é feito de atenção aos detalhes
@@ -254,13 +256,13 @@
   <section class="wrapper contact">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg">
+        <div class="col-lg text-center text-lg-start">
           <h4 class="section-heading--dark text-uppercase"><span> Fale com <br> a Embanor</span></h4>
           <p>
             Entre em contato e saiba como levar as melhores embalagens de papelão ondulado ao seu negócio:
           </p>
 
-          <nav class="list-nav">
+          <nav class="list-nav mb-5 mb-lg-0">
             <a href="mailto:embanor@embanor.com.br" class="list-nav-item--dark">
               <img src="assets/images/icons/mail.svg" alt="Mail">
               embanor@embanor.com.br
@@ -302,18 +304,16 @@
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-lg">
-          <div class="offset-lg-2">
+          <div class="offset-lg-2 text-center text-lg-start py-5 py-lg-0">
             <h4 class="section-heading text-uppercase"><span>Onde estamos</span></h4>
-            <p>Estrada Jurumirim, 506 Bairro Canjica - Salto-SP</p>
+            <p>Estrada Jurumirim, 506 <br> Bairro Canjica - Salto-SP</p>
           </div>
         </div>
 
-        <div class="col-lg p-0 maps">
+        <div class="col-lg maps">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14665.92822765914!2d-47.2972175!3d-23.225539!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf51d963310dbb%3A0xe7a5be68899d8a7f!2sEmbanor%20Embalagens!5e0!3m2!1spt-BR!2sbr!4v1689279575362!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
-
-
     </div>
   </section>
   <!--End Section - Localização -->

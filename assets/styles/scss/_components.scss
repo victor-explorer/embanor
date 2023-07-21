@@ -20,6 +20,8 @@
 
   border: 0;
 
+  text-transform: uppercase;
+
   &:hover {
     background-color: $blue-300;
     transition: all ease .2s;
@@ -50,6 +52,10 @@
     @media (max-width: 576px) {
       margin-right: auto;
     }
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
   }
 }
 
@@ -125,6 +131,7 @@
       @extend .heading;
       color: $black;
       text-transform: uppercase;
+      text-align: center;
     }
 
     .topic-content {
@@ -140,6 +147,8 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+
+  height: 100%;
 
   border-radius: 28px;
 
@@ -246,5 +255,39 @@ form {
       opacity: .7;
       transition: all ease .2s;
     }
+  }
+}
+
+.maps {
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0;
+
+  & iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    padding-bottom: 60%;
+  }
+}
+
+.carousel-products.slick-initialized {
+  .card-product {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.carousel-topics.slick-initialized {
+  .topic--horizontal {
+    width: 90%;
+    margin: 0 auto;
   }
 }

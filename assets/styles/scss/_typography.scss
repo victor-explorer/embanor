@@ -61,6 +61,13 @@
       color: $white;
     }
   }
+
+  &--small {
+    @extend .section-heading;
+    @media (max-width: 576px) {
+      @include font(600, $lg);
+    }
+  }
 }
 
 .heading {

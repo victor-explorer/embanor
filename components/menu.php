@@ -16,19 +16,19 @@
     <!-- End Desktop Menu -->
 
     <!-- Mobile Menu -->
-    <div id="menu-trigger" class="mobile-menu-trigger" onclick="openSidenav()">
+    <div id="menu-trigger" class="mobile-menu-trigger" onclick="openMobileMenu()">
       <span class="top"></span>
       <span class="middle"></span>
       <span class="bottom"></span>
     </div>
 
-    <div id="sidenav" class="mobile-menu">
+    <div id="mobileMenu" class="mobile-menu">
       <div class="nav-links-wrapper">
-        <a href="javascript:void(0)" class="close-menu-button" onclick="closeSidenav()">&times;</a>
-        <a href="quem-somos.php" onclick="closeSidenav()">Conheça a Embanor</a>
-        <a href="produtos.php" onclick="closeSidenav()">Produtos</a>
-        <a href="servicos.php" onclick="closeSidenav()">Projetos personalizados</a>
-        <a href="contato.php" onclick="closeSidenav()">Contato</a>
+        <a href="javascript:void(0)" class="close-menu-button" onclick="closeMobileMenu()">&times;</a>
+        <a href="quem-somos.php" onclick="closeMobileMenu()">Conheça a Embanor</a>
+        <a href="produtos.php" onclick="closeMobileMenu()">Produtos</a>
+        <a href="servicos.php" onclick="closeMobileMenu()">Projetos personalizados</a>
+        <a href="contato.php" onclick="closeMobileMenu()">Contato</a>
       </div>
     </div>
 

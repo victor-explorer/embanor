@@ -1,7 +1,7 @@
 <!-- Header -->
 <?php require('parts/header.php'); ?>
 
-<main id="services">
+<main id="page-services">
   <!-- Section - Banner -->
   <section class="page-banner">
     <div class="container">
@@ -19,22 +19,22 @@
         <p>Realizamos projetos específicos para cada segmento ou ramo de atuação, para que o cliente possa embalar, armazenar, transportar e entregar o que for necessário, independentemente de qual seja a demanda, e sempre da melhor forma possível.</p>
       </div>
 
-      <div class="wrapper row row-cols-3 g-3">
+      <div class="wrapper carousel-topics row row-cols-lg-3 g-lg-3">
         <!-- Cards 6 -->
         <div class="col">
           <div class="topic--horizontal-w-bg">
             <div class="topic-icon">
-              <img src="" alt="Icon">
+              <img src="assets/images/icons/services/topic-1.svg" alt="Icon">
             </div>
 
             <div class="topic-title">
               <span>
-                Título tópico
+                PROJETOS SOB MEDIDA
               </span>
             </div>
 
             <div class="topic-content">
-              <p>Descrição</p>
+              <p>Elaborados através de estudos e especificações do produto, para criar soluções inteligentes mediante análise crítica e laboratorial, em prol da melhor logística, movimentação e armazenagem.</p>
             </div>
           </div>
         </div>
@@ -42,17 +42,17 @@
         <div class="col">
           <div class="topic--horizontal-w-bg">
             <div class="topic-icon">
-              <img src="" alt="Icon">
+              <img src="assets/images/icons/services/topic-2.svg" alt="Icon">
             </div>
 
             <div class="topic-title">
               <span>
-                Título tópico
+                ATENDIMENTO IN LOCO
               </span>
             </div>
 
             <div class="topic-content">
-              <p>Descrição</p>
+              <p>Elaborados através de estudos e especificações do produto, para criar soluções inteligentes mediante análise crítica e laboratorial, em prol da melhor logística, movimentação e armazenagem.</p>
             </div>
           </div>
         </div>
@@ -60,17 +60,17 @@
         <div class="col">
           <div class="topic--horizontal-w-bg">
             <div class="topic-icon">
-              <img src="" alt="Icon">
+              <img src="assets/images/icons/services/topic-3.svg" alt="Icon">
             </div>
 
             <div class="topic-title">
               <span>
-                Título tópico
+                AMOSTRAS PERSONALIZADAS
               </span>
             </div>
 
             <div class="topic-content">
-              <p>Descrição</p>
+              <p>Plotagem de protótipos para ensaios físicos, análise do cliente e análise de projeto.</p>
             </div>
           </div>
         </div>
@@ -78,17 +78,17 @@
         <div class="col">
           <div class="topic--horizontal-w-bg">
             <div class="topic-icon">
-              <img src="" alt="Icon">
+              <img src="assets/images/icons/services/topic-4.svg" alt="Icon">
             </div>
 
             <div class="topic-title">
               <span>
-                Título tópico
+                ESTUDO DE REENGENHARIA
               </span>
             </div>
 
             <div class="topic-content">
-              <p>Descrição</p>
+              <p>Análise do processo de produção da embalagem reduzindo Custos através de estudos para reengenharia, definição do ferramental ideal e otimização do processo.</p>
             </div>
           </div>
         </div>
@@ -96,17 +96,17 @@
         <div class="col">
           <div class="topic--horizontal-w-bg">
             <div class="topic-icon">
-              <img src="" alt="Icon">
+              <img src="assets/images/icons/services/topic-5.svg" alt="Icon">
             </div>
 
             <div class="topic-title">
               <span>
-                Título tópico
+                SUPORTE COMPLETO
               </span>
             </div>
 
             <div class="topic-content">
-              <p>Descrição</p>
+              <p>Suporte Técnico full time para Clientes, mediante elaboração de Relatórios Técnicos, Procedimentos e Auditorias.</p>
             </div>
           </div>
         </div>
@@ -114,24 +114,24 @@
         <div class="col">
           <div class="topic--horizontal-w-bg">
             <div class="topic-icon">
-              <img src="" alt="Icon">
+              <img src="assets/images/icons/services/topic-6.svg" alt="Icon">
             </div>
 
             <div class="topic-title">
               <span>
-                Título tópico
+                TREINAMENTOS ESPECIAIS
               </span>
             </div>
 
             <div class="topic-content">
-              <p>Descrição</p>
+              <p>Elaboração de Treinamentos como Armazenagem e Movimentação de Embalagens, Estufamento de Container e Truck, Manuais de Montagem de Embalagens, entre outros.</p>
             </div>
           </div>
         </div>
         <!-- End Cards -->
       </div>
 
-      <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center mt-lg-0 mt-5">
         <a href="http://" role="button" class="embanor-button">
           SOLICITE UM ORÇAMENTO
         </a>
@@ -150,10 +150,10 @@
 
         <div class="col-lg wrapper">
           <div class="hero-content">
-            <h2 class="">
-              Serviços
+            <h2 class="section-heading">
+              <span>Serviços</span>
               <br>
-              Tudo pensado para te atender melhor
+              <span class="text-white">Tudo pensado para te atender melhor</span>
             </h2>
 
             <p>Oferecemos serviços diversos para cada tipo de cliente, cada demanda e cada solicitação. </p>
