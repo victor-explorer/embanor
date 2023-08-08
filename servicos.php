@@ -159,7 +159,7 @@
             <p>Oferecemos serviços diversos para cada tipo de cliente, cada demanda e cada solicitação. </p>
 
             <div>
-              <ul>
+              <ul class="embanor-list">
                 <li>Sistema de fornecimento programado</li>
                 <li>Treinamentos de movimentação e armazenagem</li>
                 <li>Reengenharia de embalagens</li>

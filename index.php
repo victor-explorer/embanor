@@ -27,17 +27,17 @@
         <img src="assets/images/section1-home.webp" alt="Imagem">
       </div>
 
-      <div class="col-lg wrapper">
+      <div class="col-lg d-flex align-items-center">
         <div class="hero-content">
           <h2 class="section-heading">
             Há mais de 40 anos <span>entregando qualidade em embalagens de papelão ondulado</span>
           </h2>
           <p>
-            Atuamos desde 1979 com a fabricação de caixas e acessórios de papelão ondulado, investindo constantemente no aprimoramento e inovação de processos e materiais.
-            Contamos com uma estrutura de mais de 6.500 m² em terreno de 30.000 m², em uma região logisticamente privilegiada pelo acesso fácil a diversas rodovias.
+            Atuamos desde 1979 com a fabricação de caixas e acessórios de papelão ondulado, investindo constantemente no aprimoramento e inovação de processos e materiais. <br><br>
+            Contamos com uma estrutura de mais de 6.500 m² em terreno de 30.000 m², em uma região logisticamente privilegiada pelo acesso fácil a diversas rodovias.<br><br>
             Com equipe especializada, projetos personalizados e certificados de qualidade em cada processo, buscamos sempre garantir a integridade dos produtos de nossos clientes e o melhor custo-benefício.
           </p>
-          <div class="d-flex justify-content-center justify-content-lg-start">
+          <div class="d-flex justify-content-center justify-content-lg-start mt-lg-5">
             <a href="http://" role="button" class="embanor-button">
               Fale conosco
             </a>
@@ -181,14 +181,15 @@
   <!-- End Section - Produtos -->
 
   <!-- Section - Serviços -->
-  <section class="wrapper">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg">
-          <img src="assets/images/section4-home.webp" alt="Imagem" class="responsive-image">
-        </div>
+  <section class="container-fluid">
+    <div class="row hero-wrapper">
 
-        <div class="col-lg mt-3 mt-lg-0 text-center text-lg-start">
+      <div class="col-lg order-last order-lg-first hero-image">
+        <img src="assets/images/section4-home.webp" alt="Imagem" class="responsive-image">
+      </div>
+
+      <div class="col-lg d-flex align-items-center">
+        <div class="hero-content">
           <h3 class="section-heading ">
             Do seu jeito, <span>para
               transportar o que quiser</span>
@@ -199,7 +200,7 @@
           </p>
 
           <div>
-            <ul>
+            <ul class="embanor-list">
               <li>Projeto elaborado após estudos de especificações</li>
               <li>Visita técnica para avaliação da demanda no detalhe</li>
               <li>Plotagem de protótipos para ensaios físicos e análise</li>
@@ -208,14 +209,14 @@
             </ul>
           </div>
 
+          <div class="d-flex justify-content-center mt-5">
+            <a href="http://" role="button" class="embanor-button text-center">
+              Quero um projeto personalizado
+            </a>
+          </div>
         </div>
       </div>
-
-      <div class="d-flex justify-content-center mt-5">
-        <a href="http://" role="button" class="embanor-button">
-          Quero um projeto personalizado
-        </a>
-      </div>
+    </div>
     </div>
   </section>
   <!-- End Section - Serviços -->
@@ -223,7 +224,7 @@
   <!-- Section - Responsabilidade ambiental -->
   <section class="wrapper bg-gray">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-lg text-center text-lg-start">
           <h3 class="section-heading">
             <span>O respeito ao meio ambiente</span>
@@ -234,7 +235,7 @@
           </p>
 
           <div>
-            <ul>
+            <ul class="embanor-list">
               <li>Matéria-prima de reflorestamento</li>
               <li>Estação de Tratamento de Efluentes própria na empresa</li>
               <li>Coleta seletiva de lixo em todas as dependências da empresa</li>

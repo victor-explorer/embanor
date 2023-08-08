@@ -306,3 +306,24 @@ form {
     margin: 0 auto;
   }
 }
+
+.embanor-list {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+
+  li {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   gap: 1ch;
+
+   &::before {
+    content: url('../../images/icons/check.svg');
+    width: 24px;
+    height: 24px;
+   }
+  }
+}
