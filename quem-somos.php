@@ -108,6 +108,11 @@
           </div>
         </div>
       </div>
+      <div class="d-flex justify-content-center">
+        <a href="/contato.php" role="button" class="embanor-button">
+          Fale conosco
+        </a>
+      </div>
   </section>
   <!-- End Section - Diferenciais -->
 
@@ -132,32 +137,52 @@
   </section>
   <!-- End Section - Meio Ambiente -->
 
-  <!-- Section - Ações sociais -->
-  <section>
-    <div class="text-center">
-      <h4 class="section-heading">Ações sociais</h4>
-      <p>
-        Somos uma das primeiras empresas a firmar convênio com a APAE, proporcionando estágios para alunos especiais.
-      </p>
-    </div>
+  <!-- Section - Contato  -->
+  <section class="wrapper contact">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg text-center text-lg-start">
+          <h4 class="section-heading--dark text-uppercase"><span> Fale com <br> a Embanor</span></h4>
+          <p>
+            Entre em contato e saiba como levar as melhores embalagens de papelão ondulado ao seu negócio:
+          </p>
 
-    <div class="container-fluid mb-5 mb-lg-2">
-      <div class="row row-cols-lg-3 carousel-gallery px-3 px-lg-0">
-        <div class="col p-lg-0">
-          <img src="assets/images/section6-whoWeAre-gallery1.webp" alt="Imagem" class="responsive-image">
+          <nav class="list-nav mb-5 mb-lg-0">
+            <a href="mailto:embanor@embanor.com.br" class="list-nav-item--dark">
+              <img src="assets/images/icons/mail.svg" alt="Mail">
+              embanor@embanor.com.br
+            </a>
+
+            <a href="#" target="_blank" class="list-nav-item--dark">
+              <img src="assets/images/icons/whatsapp.svg" alt="Wpp">
+              +55 11 95087-1883
+            </a>
+
+            <a href="tel:+551140288822" class="list-nav-item--dark">
+              <img src="assets/images/icons/tel.svg" alt="Tel">
+              11 4028 8822
+            </a>
+          </nav>
         </div>
 
-        <div class="col p-lg-0">
-          <img src="assets/images/section6-whoWeAre-gallery2.webp" alt="Imagem" class="responsive-image">
-        </div>
-
-        <div class="col p-lg-0">
-          <img src="assets/images/section6-whoWeAre-gallery3.webp" alt="Imagem" class="responsive-image">
+        <div class="col-lg">
+          <form>
+            <input type="text" name="" id="" placeholder="Nome" required>
+            <input type="email" name="" id="" placeholder="E-mail" required>
+            <input type="tel" name="" id="" placeholder="Telefone" required>
+            <input type="text" name="" id="" placeholder="Empresa" required>
+            <input type="text" name="" id="" placeholder="Assunto" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+            <button type="submit" class="embanor-button">Enviar</button>
+          </form>
         </div>
       </div>
+
+
+
     </div>
   </section>
-  <!-- End Section - Ações sociais -->
+  <!-- End Section - Contato -->
 </main>
 
 <!-- Footer -->

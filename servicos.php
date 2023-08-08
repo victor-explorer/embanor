@@ -19,7 +19,7 @@
         <p>Realizamos projetos específicos para cada segmento ou ramo de atuação, para que o cliente possa embalar, armazenar, transportar e entregar o que for necessário, independentemente de qual seja a demanda, e sempre da melhor forma possível.</p>
       </div>
 
-      <div class="wrapper carousel-topics row row-cols-lg-3 g-lg-3">
+      <div class="wrapper carousel-topics row">
         <!-- Cards 6 -->
         <div class="col">
           <div class="topic--horizontal-w-bg">
@@ -131,7 +131,7 @@
         <!-- End Cards -->
       </div>
 
-      <div class="d-flex justify-content-center mt-lg-0 mt-5">
+      <div class="d-flex justify-content-center mt-5">
         <a href="http://" role="button" class="embanor-button">
           SOLICITE UM ORÇAMENTO
         </a>

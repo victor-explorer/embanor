@@ -46,6 +46,15 @@
           <img src="assets/images/icons/facebook.svg" alt="Facebook">
         </a>
       </div>
+
+      <div class="col-lg-12">
+        <div class="d-flex justify-content-center mt-4">
+
+          <a href="politica-de-privacidade.php" class="text-decoration-underline text-white">
+            Política de privacidade
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </footer>

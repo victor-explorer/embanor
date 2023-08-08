@@ -12,9 +12,19 @@
   <!-- End Section - Banner -->
 
   <!-- Section - Introduction -->
-  <section class="wrapper">
-    <div class="container text-center">
-      <p class="section-heading--small">Contamos com um portfólio variado de produtos, <span>todos adaptáveis à solução de que sua empresa precisa, com diversas opções de formato, gramatura, tamanho e resistência.</span></p>
+  <section class="container-fluid">
+    <div class="row hero-wrapper">
+      <div class="col-lg order-last hero-image">
+        <img src="assets/images/section1-home.webp" alt="Imagem">
+      </div>
+
+      <div class="col-lg wrapper">
+        <div class="hero-content">
+          <p>
+          <p class="section-heading--small">Contamos com um portfólio variado de produtos, <span>todos adaptáveis à solução de que sua empresa precisa, com diversas opções de formato, gramatura, tamanho e resistência.</span></p>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
   <!-- End Section - Introduction -->
@@ -30,7 +40,7 @@
       </div>
 
       <!-- Cards -->
-      <div class="carousel-products cards-product row row-cols-lg-4 gap-lg-3 justify-content-center">
+      <div class="carousel-products-slick cards-product row justify-content-center">
         <div class="col">
           <div class="card-product">
             <div class="card-product-title">
@@ -125,6 +135,12 @@
         </div>
       </div>
       <!-- End Cards -->
+
+      <div class="d-flex justify-content-center mt-5">
+        <a href="/contato.php" role="button" class="embanor-button">
+          Solicite um orçamento
+        </a>
+      </div>
     </div>
   </section>
   <!-- End Section - Produtos -->
@@ -175,7 +191,7 @@
   <!-- Section - Tópicos -->
   <section class="wrapper" style="background-image: url('assets/images/section4-products.webp')">
     <div class="container">
-      <div class="carousel-topics row row-cols-lg-3 gy-lg-3">
+      <div class="carousel-topics row">
 
         <div class="col">
           <div class="topic--horizontal bg-white text-black">

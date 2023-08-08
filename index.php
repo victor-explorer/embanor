@@ -23,8 +23,7 @@
   <!-- Section - Quem somos -->
   <section class="container-fluid">
     <div class="row hero-wrapper">
-      <!-- Imagem no final no mobile -->
-      <div class="col-lg order-last order-lg-first hero-image">
+      <div class="col-lg order-last hero-image">
         <img src="assets/images/section1-home.webp" alt="Imagem">
       </div>
 
