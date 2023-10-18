@@ -189,16 +189,33 @@
     text-align: center;
 
     @media (min-width: 1120px) {
-      min-height: 196px ;
+      min-height: 196px;
     }
   }
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
+
+  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100% !important;
+    position: relative;
+
+    .wpcf7-spinner {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 10px 8px;
+
+      @media (max-width: 768px) {
+        left: 0;
+        margin: auto;
+        bottom: -6%;
+      }
+    }
+  }
 
   input,
   textarea {
@@ -219,6 +236,18 @@ form {
     &:focus {
       outline: 1px solid $blue-300;
     }
+  }
+
+  textarea {
+    height: 150px;
+  }
+}
+
+.wpcf7 form .wpcf7-response-output {
+  text-align: center;
+
+  @media (max-width: 768px) {
+    margin: 4em 0.5em 1em;
   }
 }
 
@@ -315,15 +344,15 @@ form {
   padding-left: 0;
 
   li {
-   list-style: none;
-   display: flex;
-   align-items: center;
-   gap: 1ch;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1ch;
 
-   &::before {
-    content: url('../../images/icons/check.svg');
-    width: 24px;
-    height: 24px;
-   }
+    &::before {
+      content: url('../../images/icons/check.svg');
+      width: 24px;
+      height: 24px;
+    }
   }
 }
