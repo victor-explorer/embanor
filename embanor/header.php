@@ -49,7 +49,7 @@
 
       <div id="mobileMenu" class="mobile-menu">
         <div class="nav-links-wrapper">
-          <a href="javascript:void(0)" class="close-menu-button" onclick="closeMobileMenu()">&times;</a>
+          <div class="close-menu-button" onclick="closeMobileMenu()">&times;</div>
           <a href="quem-somos" onclick="closeMobileMenu()">Conheça a Embanor</a>
           <a href="produtos" onclick="closeMobileMenu()">Produtos</a>
           <a href="servicos" onclick="closeMobileMenu()">Projetos personalizados</a>
