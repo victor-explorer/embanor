@@ -4,7 +4,7 @@
       <!-- Logo -->
       <div class="col-lg-5">
         <a class="logo" href="/">
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/footer-logo.png'; ?>" alt="Embanor" class="responsive-image">
+          <img src="<?php the_field('acf_settings_logo', 240); ?>" alt="Embanor" class="responsive-image">
         </a>
       </div>
 
@@ -12,39 +12,59 @@
       <div class="col-lg-5">
 
         <nav class="list-nav">
-          <a href="mailto:embanor@embanor.com.br" class="list-nav-item">
-            <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/mail.svg'; ?>" alt="">
-            embanor@embanor.com.br
-          </a>
-          <a href="https://api.whatsapp.com/send?phone=5511950871883" target="_blank" class="list-nav-item">
-            <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/whatsapp.svg'; ?>" alt="">
-            +55 11 95087-1883
-          </a>
-          <a href="tel:+551140288822" class="list-nav-item">
-            <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/tel.svg'; ?>" alt="">
-            11 4028 8822
-          </a>
-          <a href="https://goo.gl/maps/jtvwZEv6k8H3hN4z9" target="_blank" class="list-nav-item">
-            <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/map.svg'; ?>" alt="">
-            Est. Jurumirim, 506
-            Bairro Canjica - Salto-SP
-          </a>
+          <?php if (get_field('acf_settings_email', 240)) : ?>
+            <a href="mailto:<?php the_field('acf_settings_email', 240); ?>" class="list-nav-item">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/mail.svg'; ?>" alt="">
+              <?php the_field('acf_settings_email', 240); ?>
+            </a>
+          <?php endif; ?>
+
+          <?php if (get_field('acf_settings_whatsapp', 240)) : ?>
+            <a href="<?php the_field('acf_settings_url_whatsapp', 240); ?>" target="_blank" class="list-nav-item">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/whatsapp.svg'; ?>" alt="">
+              <?php the_field('acf_settings_whatsapp', 240); ?>
+            </a>
+          <?php endif; ?>
+
+          <?php if (get_field('acf_settings_tel', 240)) : ?>
+            <a href="tel:+<?php the_field('acf_settings_url_tel', 240); ?>" class="list-nav-item">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/tel.svg'; ?>" alt="">
+              <?php the_field('acf_settings_tel', 240); ?>
+            </a>
+          <?php endif; ?>
+
+          <?php if (get_field('acf_settings_endereco', 240)) : ?>
+            <a href="<?php the_field('acf_settings_url_endereco', 240); ?>" target="_blank" class="list-nav-item">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/map.svg'; ?>" alt="">
+              <?php the_field('acf_settings_endereco', 240); ?>
+            </a>
+          <?php endif; ?>
+
         </nav>
       </div>
 
       <!-- Social media -->
       <div class="social col-lg-2">
-        <a href="https://www.instagram.com/embanorembalagens/" class="social-item" target="_blank" title="Instagram">
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/instagram.svg'; ?>" alt="Instagram">
-        </a>
+        <?php if (get_field('acf_settings_instagram', 240)) : ?>
+          <a href="<?php the_field('acf_settings_instagram', 240); ?>" class="social-item" target="_blank" title="Instagram">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/instagram.svg'; ?>" alt="Instagram">
+          </a>
+        <?php endif; ?>
 
-        <a href="https://www.linkedin.com/company/embanor-embalagens-ltda/" class="social-item" target="_blank" title="Linkedin ">
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/linkedin.svg'; ?>" alt="Linkedin">
-        </a>
 
-        <a href="https://www.facebook.com/embanor/" class="social-item" target="_blank" title="Facebook">
-          <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/facebook.svg'; ?>" alt="Facebook">
-        </a>
+        <?php if (get_field('acf_settings_linkedin', 240)) : ?>
+          <a href="<?php the_field('acf_settings_linkedin', 240); ?>" class="social-item" target="_blank" title="Linkedin ">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/linkedin.svg'; ?>" alt="Linkedin">
+          </a>
+        <?php endif; ?>
+
+
+        <?php if (get_field('acf_settings_facebook', 240)) : ?>
+          <a href="<?php the_field('acf_settings_facebook', 240); ?>" class="social-item" target="_blank" title="Facebook">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/facebook.svg'; ?>" alt="Facebook">
+          </a>
+        <?php endif; ?>
+
       </div>
 
       <div class="col-lg-12">

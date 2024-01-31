@@ -155,6 +155,11 @@ h6 {
       padding: 0 $size-md;
       padding-top: 1rem;
     }
+
+    &#intro {
+      max-width: none;
+      margin: unset;
+    }
   }
 }
 

@@ -21,14 +21,16 @@
   <!-- End Section - Banner Home -->
 
   <!-- Section - Quem somos -->
-  <section class="container-fluid">
-    <div class="row hero-wrapper">
-      <div class="col-lg order-last hero-image">
-        <img src="assets/images/section1-home.webp" alt="Imagem">
+  <section class="container wrapper">
+    <div class="row hero-wrapper align-items-lg-center">
+      <div class="col-lg order-last hero-image mt-5 mt-lg-0">
+        <div class="video-container">
+          <iframe class="video" src="https://www.youtube.com/embed/NpEaa2P7qZI?si=ADBA9XugldjW2ZXj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        </div>
       </div>
 
-      <div class="col-lg d-flex align-items-center">
-        <div class="hero-content">
+      <div class="col-lg-6 d-flex align-items-center">
+        <div class="hero-content" id="intro">
           <h2 class="section-heading">
             Há mais de 40 anos <span>entregando qualidade em embalagens de papelão ondulado</span>
           </h2>
