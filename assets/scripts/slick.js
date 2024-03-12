@@ -43,6 +43,18 @@ $(window).on('load resize orientationchange', function () {
 
     });
 
+    $('.carousel-pictures').each(function () {
+        let $carousel = $(this);
+
+        $carousel.slick({
+            dots: false,
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+        })
+    })
+
     $('.carousel-gallery').each(function () {
         let $carousel = $(this);
 

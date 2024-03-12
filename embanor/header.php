@@ -18,6 +18,19 @@
     gtag('config', 'G-NHTBD9J4C1');
   </script>
 
+  <style>
+    #page-home #banner {
+      background-image: url(<?php the_field('acf_home_banner'); ?>);
+    }
+
+    @media (max-width: 768px) {
+      #page-home #banner {
+        background-image: url(<?php the_field('acf_home_banner_mobile'); ?>);
+      }
+    }
+  </style>
+
+
 
   <?php wp_head(); ?>
 </head>
